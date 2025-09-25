@@ -1,0 +1,9 @@
+{
+  "chosen_model_path": "../artifacts/models/best_model.joblib",
+  "scaler_path": "../reports/metrics/scaler_train_subset.joblib",
+  "pca_path": "../reports/metrics/pca_train_subset.joblib",
+  "test_accuracy": 0.9517133956386293,
+  "test_macro_f1": 0.9496423191779965,
+  "test_micro_f1": 0.9517133956386293,
+  "num_test_samples": 1284
+}
