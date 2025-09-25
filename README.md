@@ -49,6 +49,8 @@ The chosen model (RBF SVM) achieved:
 - **Macro F1 Score:** 94.9%  
 - **Micro F1 Score:** 95.2%  
 
+Most misclassifications occurred between tumour subtypes (e.g., glioma vs meningioma). Very few cases involved tumours being mistaken for “no tumour” or vice versa. This indicates the model is more reliable at detecting tumour presence, with errors mainly reflecting the difficulty of distinguishing between similar tumour types.
+
 Figures generated in the notebook are saved under `reports/figures/`:
 
 ### PCA explained variance
