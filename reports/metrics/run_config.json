@@ -1,0 +1,25 @@
+{
+  "random_seed": 42,
+  "validation_fraction": 0.2,
+  "pca_variance_target": 0.95,
+  "subtrain_shape": [
+    4416,
+    1483
+  ],
+  "validation_shape": [
+    1105,
+    1483
+  ],
+  "class_label_to_index": {
+    "glioma": 0,
+    "meningioma": 1,
+    "notumor": 2,
+    "pituitary": 3
+  },
+  "class_index_to_label": {
+    "0": "glioma",
+    "1": "meningioma",
+    "2": "notumor",
+    "3": "pituitary"
+  }
+}

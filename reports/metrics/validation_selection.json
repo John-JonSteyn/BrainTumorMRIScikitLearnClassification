@@ -1,0 +1,22 @@
+{
+  "chosen_model": "RBF SVM",
+  "linear_search_best_params": {
+    "C": 0.1
+  },
+  "rbf_search_best_params": {
+    "C": 10.0,
+    "gamma": "scale"
+  },
+  "linear_validation_metrics": {
+    "model_name": "Linear SVM",
+    "accuracy": 0.9221719457013575,
+    "macro_f1": 0.9202715798817298,
+    "micro_f1": 0.9221719457013575
+  },
+  "rbf_validation_metrics": {
+    "model_name": "RBF SVM",
+    "accuracy": 0.9429864253393665,
+    "macro_f1": 0.9416127742623697,
+    "micro_f1": 0.9429864253393665
+  }
+}
